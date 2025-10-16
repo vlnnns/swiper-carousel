@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>FBA Traffic Team Testimonials</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link href="video-js/video-js.css" rel="stylesheet"/>
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body class="overflow-x-hidden">
+
+<section class="relative py-16 bg-white/5" id="testimonials">
+    <div class="mx-auto text-center">
+        <h1 class="text-4xl sm:text-5xl font-medium tracking-wide">
+            <span class="gradient-green font-medium">FBA</span> TRAFFIC TEAM
+        </h1>
+        <p class="mt-4 text-sm text-white/70">Команда з трафіку для освітніх проєктів.</p>
+        <p class="text-sm text-white/80 font-medium">Наш ідеальний мікс: сильні проєкти та наш досвід.</p>
+
+        <div class="mx-auto mt-8 max-w-xl px-4">
+            <div aria-label="Відгуки"
+                 class="tab-group relative z-0 flex items-center justify-center rounded-full border border-white/20 p-1 backdrop-blur-xl"
+                 role="tablist">
+                <input id="tab-video" name="tab" type="radio">
+                <label class="tab-btn cursor-pointer py-3 sm:py-5 px-10 leading-tight transition-colors duration-300 w-1/2"
+                       for="tab-video">Відео відгуки</label>
+                <input checked id="tab-static" name="tab" type="radio">
+                <label class="tab-btn cursor-pointer py-3 sm:py-5 px-10 leading-tight transition-colors duration-300 w-1/2"
+                       for="tab-static">Текстові відгуки</label>
+                <div class="glider w-1/2"></div>
+            </div>
+        </div>
+
+        <div class="custom-divider"></div>
+
+        <div class="mt-6 flex flex-col items-center gap-2" id="trusted-by-section">
+            <span class="text-xs tracking-wide text-white/60 uppercase">TRUSTED BY:</span>
+            <ul class="flex items-center gap-2.5" id="trusted-avatars">
+                <li>
+                    <button aria-pressed="true" class="trusted-btn" data-index="0" data-name="Томас Кралов"
+                            type="button">
+                        <span class="ava-ring inline-flex h-11 w-11 items-center justify-center rounded-full p-[2px]"><img
+                                alt="Томас Кралов" class="h-10 w-10 rounded-full object-cover"
+                                src="img/ava2.png"/></span>
+                    </button>
+                </li>
+                <li>
+                    <button aria-pressed="false" class="trusted-btn" data-index="1" data-name="Марина Л." type="button">
+                        <span class="ava-ring inline-flex h-11 w-11 items-center justify-center rounded-full p-[2px]"><img
+                                alt="Марина Л." class="h-10 w-10 rounded-full object-cover" src="img/ava1.png"/></span>
+                    </button>
+                </li>
+                <li>
+                    <button aria-pressed="false" class="trusted-btn" data-index="2" data-name="Дмитро С." type="button">
+                        <span class="ava-ring inline-flex h-11 w-11 items-center justify-center rounded-full p-[2px]"><img
+                                alt="Дмитро С." class="h-10 w-10 rounded-full object-cover" src="img/ava3.png"/></span>
+                    </button>
+                </li>
+                <li>
+                    <button aria-pressed="false" class="trusted-btn" data-index="3" data-name="Ірина К." type="button">
+                        <span class="ava-ring inline-flex h-11 w-11 items-center justify-center rounded-full p-[2px]"><img
+                                alt="Ірина" class="h-10 w-10 rounded-full object-cover" src="img/ava4.png"/></span>
+                    </button>
+                </li>
+            </ul>
+            <div class="text-xs text-white/70" id="trusted-name">Томас Кралов</div>
+        </div>
+
+        <div class="relative mt-10">
+            <div class="swiper text-carousel" id="carousel-static">
+                <div class="swiper-wrapper py-4">
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left">
+                            <p class="text-sm text-white/80">«Працюємо з цією компанією вже більше року і дуже
+                                задоволені
+                                результатами. Вони забезпечують чіткі звіти, якісне виконання робіт і завжди
+                                дотримуються
+                                термінів. Мені дуже подобається, що ми маємо постійний контакт з командою, і вони завжди
+                                готові допомогти в будь-якому питанні. Якість роботи на високому рівні, а їхній підхід
+                                до
+                                кожного клієнта — це саме те, що потрібно для довгострокового співробітництва.»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Томас Кралов" class="h-14 w-14 rounded-full object-cover" src="img/ava2.png">
+                                <div>
+                                    <div class="text-md font-semibold">Томас Кралов</div>
+                                    <div class="text-xs text-white/50">Найвідоміший трейдер <br>в соціальних мережах
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left ">
+                            <p class="text-sm text-white/80">«Мені дуже подобається співпрацювати з цією командою!
+                                Запуски
+                                відбуваються дуже швидко, завжди є підтримка на кожному етапі роботи. Вони завжди на
+                                зв'язку, і
+                                я можу звернутися до них у будь-який час. Я отримую оперативні відповіді і рекомендації
+                                щодо
+                                оптимізації моїх кампаній, що допомагає мені постійно поліпшувати результати. Дуже
+                                задоволена
+                                нашою співпрацею!»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Марина Л." class="h-14 w-14 rounded-full object-cover" src="img/ava1.png">
+                                <div>
+                                    <div class="text-md font-semibold">Марина Л.</div>
+                                    <div class="text-xs text-white/50">Автор курсу</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left">
+                            <p class="text-sm text-white/80">«Ця компанія допомогла мені запустити рекламні кампанії під
+                                ключ,
+                                що було для мене справжнім порятунком. Вони не тільки налаштували рекламу, але й провели
+                                глибокий аналіз ринку, що дало змогу вибудувати чітку стратегію. Тепер я отримую не
+                                тільки
+                                більше продажів, а й точніші дані для подальших дій. Команда працює дуже професійно, і я
+                                впевнений, що їхній досвід допоможе мені досягти ще кращих результатів.»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Дмитро С." class="h-14 w-14 rounded-full object-cover" src="img/ava3.png">
+                                <div>
+                                    <div class="text-md font-semibold">Дмитро С.</div>
+                                    <div class="text-xs text-white/50">Підприємець</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left ">
+                            <p class="text-sm text-white/80">«Вони дійсно чудово виконують свою роботу! Допомогли мені з
+                                запуском реклами, детально пояснивши, як працює кожен етап. Завдяки їхній допомозі я
+                                зміг
+                                зрозуміти всі тонкощі аналітики і оптимізації моїх кампаній. Відчуваю реальний прогрес у
+                                бізнесі, і це завдяки професіоналізму цієї команди. Я їх рекомендую!»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Ірина К." class="h-14 w-14 rounded-full object-cover" src="img/ava4.png">
+                                <div>
+                                    <div class="text-md font-semibold">Ірина К.</div>
+                                    <div class="text-xs text-white/50">Малий бізнес</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left">
+                            <p class="text-sm text-white/80">«Працюємо з цією компанією вже більше року і дуже
+                                задоволені
+                                результатами. Вони забезпечують чіткі звіти, якісне виконання робіт і завжди
+                                дотримуються
+                                термінів. Мені дуже подобається, що ми маємо постійний контакт з командою, і вони завжди
+                                готові
+                                допомогти в будь-якому питанні. Якість роботи на високому рівні, а їхній підхід до
+                                кожного
+                                клієнта — це саме те, що потрібно для довгострокового співробітництва.»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Томас Кралов" class="h-14 w-14 rounded-full object-cover" src="img/ava2.png">
+                                <div>
+                                    <div class="text-md font-semibold">Томас Кралов</div>
+                                    <div class="text-xs text-white/50">Найвідоміший трейдер <br>в соціальних мережах
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left">
+                            <p class="text-sm text-white/80">«Мені дуже подобається співпрацювати з цією командою!
+                                Запуски
+                                відбуваються дуже швидко, завжди є підтримка на кожному етапі роботи. Вони завжди на
+                                зв'язку, і
+                                я можу звернутися до них у будь-який час. Я отримую оперативні відповіді і рекомендації
+                                щодо
+                                оптимізації моїх кампаній, що допомагає мені постійно поліпшувати результати. Дуже
+                                задоволена
+                                нашою співпрацею!»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Марина Л." class="h-14 w-14 rounded-full object-cover" src="img/ava1.png">
+                                <div>
+                                    <div class="text-md font-semibold">Марина Л.</div>
+                                    <div class="text-xs text-white/50">Автор курсу</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex flex-col gap-6 rounded-[20px] ring-1 ring-white/10 p-5 text-left">
+                            <p class="text-sm text-white/80">«Ця компанія допомогла мені запустити рекламні кампанії під
+                                ключ,
+                                що було для мене справжнім порятунком. Вони не тільки налаштували рекламу, але й провели
+                                глибокий аналіз ринку, що дало змогу вибудувати чітку стратегію. Тепер я отримую не
+                                тільки
+                                більше продажів, а й точніші дані для подальших дій. Команда працює дуже професійно, і я
+                                впевнений, що їхній досвід допоможе мені досягти ще кращих результатів.»</p>
+                            <div class="mt-auto flex items-center gap-4">
+                                <img alt="Дмитро С." class="h-14 w-14 rounded-full object-cover" src="img/ava3.png">
+                                <div>
+                                    <div class="text-md font-semibold">Дмитро С.</div>
+                                    <div class="text-xs text-white/50">Підприємець</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper video-carousel hidden" id="carousel-video">
+                <div class="swiper-wrapper py-4 items-center">
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid1.png"
+                               preload="none">
+                            <source src="reviews-videos/vid1.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid2.png"
+                               preload="none">
+                            <source src="reviews-videos/vid2.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid3.png"
+                               preload="none">
+                            <source src="reviews-videos/vid3.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid4.png"
+                               preload="none">
+                            <source src="reviews-videos/vid4.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid5.png"
+                               preload="none">
+                            <source src="reviews-videos/vid5.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid1.png"
+                               preload="none">
+                            <source src="reviews-videos/vid1.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid2.png"
+                               preload="none">
+                            <source src="reviews-videos/vid2.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <video class="video-js vjs-fill" controls data-setup='{}' poster="img/vid3.png"
+                               preload="none">
+                            <source src="reviews-videos/vid3.MP4" type="video/mp4"/>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- ЕЛЕМЕНТИ ---
+        const staticCarouselEl = document.getElementById('carousel-static');
+        const videoCarouselEl = document.getElementById('carousel-video');
+        const tabStaticInput = document.getElementById('tab-static');
+        const tabVideoInput = document.getElementById('tab-video');
+        const trustedAvatars = document.querySelectorAll('#trusted-avatars .trusted-btn');
+        const trustedNameEl = document.getElementById('trusted-name');
+        const trustedContainer = document.getElementById('trusted-by-section');
+
+        // --- НАЛАШТУВАННЯ SWIPER ---
+        const swiperOptions = {
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false, // Не вимикати після ручного втручання
+                pauseOnMouseEnter: true,     // Зупиняти при наведенні миші (кращий UX)
+            },
+            speed: 2000,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            spaceBetween: 24,
+            grabCursor: true,
+        };
+
+        // --- ТЕКСТОВА КАРУСЕЛЬ ---
+        const textSwiper = new Swiper('.text-carousel', {
+            ...swiperOptions,
+            on: {
+                slideChange: (swiper) => {
+                    const activeIndex = swiper.realIndex;
+                    if (trustedAvatars[activeIndex]) {
+                        trustedAvatars.forEach(btn => btn.setAttribute('aria-pressed', 'false'));
+                        trustedAvatars[activeIndex].setAttribute('aria-pressed', 'true');
+                        trustedNameEl.textContent = trustedAvatars[activeIndex].dataset.name;
+                    }
+                },
+            },
+        });
+
+        // --- ВІДЕО-КАРУСЕЛЬ ---
+        const videoSwiper = new Swiper('.video-carousel', {
+            ...swiperOptions,
+            // 👇 ДОДАНО: карусель починається з 3-го слайда (індекс 2)
+            initialSlide: 2,
+        });
+
+        // --- ЛОГІКА ДЛЯ ВІДЕО-ПЛЕЄРІВ (ВАЖЛИВЕ ВИПРАВЛЕННЯ) ---
+        const videoPlayers = [];
+        document.querySelectorAll('.video-js').forEach(videoEl => {
+            const player = videojs(videoEl);
+            videoPlayers.push(player);
+
+            // Коли відео починає грати - зупиняємо карусель
+            player.on('play', () => {
+                videoSwiper.autoplay.stop();
+            });
+
+            // Коли відео на паузі або закінчилося - запускаємо карусель
+            player.on('pause', () => {
+                videoSwiper.autoplay.start();
+            });
+            player.on('ended', () => {
+                videoSwiper.autoplay.start();
+            });
+        });
+
+        // --- КЕРУВАННЯ АВАТАРАМИ ---
+        trustedAvatars.forEach(button => {
+            button.addEventListener('click', () => {
+                const slideIndex = parseInt(button.dataset.index);
+                textSwiper.slideToLoop(slideIndex);
+            });
+        });
+
+        // --- КЕРУВАННЯ ВКЛАДКАМИ ---
+        const handleTabChange = () => {
+            if (tabStaticInput.checked) {
+                staticCarouselEl.classList.remove('hidden');
+                videoCarouselEl.classList.add('hidden');
+                trustedContainer.classList.remove('hidden');
+
+                textSwiper.autoplay.start();
+                videoSwiper.autoplay.stop();
+                // Зупиняємо всі відео при переході на іншу вкладку
+                videoPlayers.forEach(player => player.pause());
+                textSwiper.update();
+            } else {
+                staticCarouselEl.classList.add('hidden');
+                videoCarouselEl.classList.remove('hidden');
+                trustedContainer.classList.add('hidden');
+
+                textSwiper.autoplay.stop();
+                videoSwiper.autoplay.start(); // Запускаємо автопрокрутку
+                videoSwiper.update();
+            }
+        };
+
+        tabStaticInput.addEventListener('change', handleTabChange);
+        tabVideoInput.addEventListener('change', handleTabChange);
+    });
+</script>
+</body>
+</html>
